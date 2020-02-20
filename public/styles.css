@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    font-family: "Helvetica Neue", arial;
+}
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background: #4f19e6;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.welcome h1 {
+    font-size: 72px;
+}
+
+.welcome img {
+    width: 300px;
+    height: 300px;
+}
+
+.welcome-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+form input {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+form input::placeholder {
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+.wrapper input::placeholder {
+    font-size: 20px;
+    color: black;
+}
+
+.chats {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chats p {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.chats p:first-child {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wrapper .chats img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.people {
+    text-align: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.people p {
+    font-size: 36px;
+    font-style: italic;
+    align-self: center;
+    margin-left: 20px;
+}
+
+button {
+    height: 50px;
+    width: 265px;
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b0e619;
+    color: black;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#app .logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+#profile {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.profile-bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-bio p {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.small-profile-pic {
+    border-radius: 1%;
+    border: 1px solid #4f19e6;
+}
+
+.profile-img-wrapper {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+#profile h1 {
+    font-size: 72px;
+    font-style: italic;
+}
+
+#profile img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.h1-title {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+.users {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.wrapper img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bioeditor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.fw-wrapper {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.fw {
+    display: flex;
+    margin-left: 100px;
+}
+
+.fw-vert {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.fw-vert button {
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.fw img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cm-vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.cm-vert p {
+    text-align: left;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 333;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-popup {
+    background-color: white;
+    width: 450px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+}
+
+.modal-popup form {
+    text-align: center;
+}
+
+.modal-popup h3 {
+    margin-bottom: 20px;
+}
+
+.xx {
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.edit {
+    background-color: yellow;
+    padding: 3px;
+}
+
+.posts {
+    text-align: center;
+    font-style: italic;
+}
+
+.wall-post {
+    color: #e61949;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wall-post-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wall-post img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.individual-post {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.individual-post p {
+    align-self: center;
+}
+
+.addpost {
+    color: #e61949;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.addpost:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit-post {
+    width: 100px;
+    height: 20px;
+    padding: 0;
+}

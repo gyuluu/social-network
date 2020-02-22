@@ -29,4 +29,4 @@ The Creators Network is a single page application that has a similar functionali
 
 ### Edit Bio
 
-![Edit Bio](images/edit-bio.png)
+![Edit Bio](images/edit-bio.gif)

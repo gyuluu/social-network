@@ -23,3 +23,10 @@ The Creators Network is a single page application that has a similar functionali
 - Other users profile
 - Chat - real-time public chat with anyone registered
 - Post on other user's wall
+- Add friend / Cancel friend request / Unfriend / Accept friend request
+
+## Demo
+
+### Edit Bio
+
+![Edit Bio](images/edit-bio.png)

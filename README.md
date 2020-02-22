@@ -30,3 +30,12 @@ The Creators Network is a single page application that has a similar functionali
 ### Edit Bio
 
 ![Edit Bio](images/edit-bio.gif)
+
+### Find People
+
+![Find People](images/find-people.gif)
+
+### Chat Room
+
+![Chat Room](images/chat-room.gif)
+
